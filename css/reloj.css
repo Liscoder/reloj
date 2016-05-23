@@ -1,0 +1,47 @@
+@font-face{
+	font-family:"Engagement";
+	src: url('Engagement-Regular.ttf');
+}
+body {
+
+   font-family: "Engagement";
+   font-style: normal;
+   font-weight: 400;
+}
+
+
+.info p{
+	display:inline-block;
+
+}
+
+.space{
+	background: url("../image/space.jpg") no-repeat top;
+	background-size: 100%;
+	height:800px;	
+}
+
+.info{
+	font-size:60px;
+	color:white;
+	text-align:center;
+	padding-top:100px;
+}
+button{
+	background-color:#c2c2c2;
+	height:80px;
+	width:80px;
+	border-radius:50%;
+}
+.choice{
+	margin-top:80px;
+}
+.ciudades{
+	margin:10px 0;
+	color:white;
+	font-size:20px;
+
+}
+#ciudades{
+	display:none;
+}
